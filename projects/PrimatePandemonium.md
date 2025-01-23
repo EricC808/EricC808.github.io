@@ -6,9 +6,8 @@ title: "Primate Pandemonium"
 date: 2023
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
+  - Game
+  - Java
 summary: "My team developed a multiplayer game called Primate Pandemonium, for AP Computer Science A."
 ---
 

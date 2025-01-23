@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/SI(SW)Gameply.png
+image: img/SI(SW)Gameplay.png
 title: "Space Invaders(Star Wars)"
 date: 2021
 published: true

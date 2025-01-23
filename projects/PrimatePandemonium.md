@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Title FInal Concept.jpg
+image: img/titleScreen.png
 title: "Primate Pandemonium"
 date: 2023
 published: true

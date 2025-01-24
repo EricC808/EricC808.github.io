@@ -20,7 +20,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "TypeScript" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "TypeScript", Python ]
     }
   ],
   "education": [
@@ -33,5 +33,6 @@
       "courses": [
       ]
     }
+    
   ],
 }

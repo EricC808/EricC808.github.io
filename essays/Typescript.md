@@ -8,39 +8,22 @@ published: true
 labels:
   - Software Engineering
   - Learning
-  - Tyepscript
+  - TypeScript
 ---
 
 <img width="500px" class="rounded float-start pe-4" src="../img/TS.jpg">
 
-## In the context of programming
+## First Steps In Typescript
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+Before this class, I had never heard of or touched TypeScript or JavaScript, so I had a lot of learning to do in just under a week when I was first introduced to it. I was scared at first to learn a new language, as I had only just learned C and the basics of C++ this past semester. But I had a sigh of relief whilst I was going through the TypeScript and JavaScript courses respectively and found out that TypeScript wasn't so bad. I quite liked the fact that in TypeScript, it checks at compile time, similarly to C and C++, which I find to be one of the simple things that are very helpful and save you time.
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+## Practicing through WOD's
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+I enjoy the structure of ICS 314 and how weekly we will do these things called WODs, which are basically in-class exercises that are timed. The time is determined by the professors and how difficult it is. The WODs give us a prompt that asks us to code a certain thing based on what is asked in TypeScript Playground, then we test our code through the test cases provided. They are meant to challenge our knowledge of TypeScript and what we are learning through short hands-on practice, which I personally like a lot more than long homework assignments that you have to do on your own time. By doing the WODs in class and then having the professor go over how to do it with everyone and taking questions is, in my opinion, the best way you can try and teach coding to someone. It gives you a test of your knowledge, and then you can immediately learn afterwards what you should have done to correctly write a program based on the prompt.
 
-## In the context of engineering
+## Why TypeScript Matters
 
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
+I believe that TypeScript is a good language from a software engineering perspective; it's very similar to other languages that you may have learned beforehand, and it also mixes in new helpful things. One of the things I like about TypeScript is how well it integrates with modern development tools, providing features like auto-completion and real-time error checking, which make coding more efficient and enjoyable. These features help catch mistakes early and allow for a smoother development process, especially when working on larger projects where maintainability is crucial. However, I did notice that setting up TypeScript can take some effort compared to JavaScript, with the need for configuration and transpilation. Despite this, I think the added benefits of static typing and improved code reliability make it worth it in the long run. While it might seem like extra work initially, it ultimately helps create more robust and scalable applications, making it a valuable choice for many software engineering projects.
 
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
 
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+The essay above used ChatGPT for spelling and grammar corrections/suggestions

@@ -11,19 +11,23 @@ labels:
   - Bootstrap 5
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/TS.jpg">
+<img width="500px" class="rounded float-start pe-4" src="../img/B5.png">
 
 ## Is Bootstrap Really Worth It?
 
-Before this class, I had never heard of or touched TypeScript or JavaScript, so I had a lot of learning to do in just under a week when I was first introduced to it. I was scared at first to learn a new language, as I had only just learned C and the basics of C++ this past semester. But I had a sigh of relief whilst I was going through the TypeScript and JavaScript courses respectively and found out that TypeScript wasn't so bad. I quite liked the fact that in TypeScript, it checks at compile time, similarly to C and C++, which I find to be one of the simple things that are very helpful and save you time.
+Bootstrap 5 has a learning curve, as many things do, which means it will take time and effort to learn how to use it properly and effectively. But if you do, it will be a game-changer in web development. Instead of spending hours writing CSS to make a button or a navigation bar look good, you can just add a class in your HTML, and boom—done. No more struggling with positioning, margins, and media queries because Bootstrap takes care of all that for you. It makes your website responsive without you having to manually adjust layouts for different screen sizes.
 
 ## Why Not Back to Basics?
 
-If you know anything about web development, you would have heard about HTML and CSS. They are the fundamental building blocks of web pages, but not UI frameworks. UI frameworks like Bootstrap do still use CSS though as a base. Now with this, you might be saying "why not just use CSS then?". Well I'll answer that it's because using UI frameworks such as Boostrap will save you the hassel of writing multiple lines of code to get this one part of your website to the perfect syle that you want. But if you use Bootsrap you turn 10 lines of code in your CSS file, to 1 line of code in your HTML file. 
+If you know anything about web development, you would have heard about HTML and CSS. They are the fundamental building blocks of web pages, but not UI frameworks. UI frameworks like Bootstrap do still use CSS as a base. Now with this, you might be saying, "Why not just use CSS then?" Well, I'll answer that—it's because using UI frameworks such as Bootstrap will save you the hassle of writing multiple lines of code to get this one part of your website to the perfect style that you want. But if you use Bootstrap, you turn 10 lines of code in your CSS file into 1 line of code in your HTML file. This is a MAJOR time saver. Bootstrap automatically adjusts to different screen sizes, which eliminates the need to manually tweak layouts for it to work on multiple devices. Bootstrap also provides pre-made buttons that anyone can use without the requirement of writing HTML and CSS.
 
 ## Is There Even a Benefit?
 
-I believe that TypeScript is a good language from a software engineering perspective; it's very similar to other languages that you may have learned beforehand, and it also mixes in new helpful things. One of the things I like about TypeScript is how well it integrates with modern development tools, providing features like auto-completion and real-time error checking, which make coding more efficient and enjoyable. These features help catch mistakes early and allow for a smoother development process, especially when working on larger projects where maintainability is crucial. However, I did notice that setting up TypeScript can take some effort compared to JavaScript, with the need for configuration and transpilation. Despite this, I think the added benefits of static typing and improved code reliability make it worth it in the long run. While it might seem like extra work initially, it ultimately helps create more robust and scalable applications, making it a valuable choice for many software engineering projects.
+But it’s not all perfect. Since Bootstrap is used by so many people, a lot of websites end up looking kind of the same unless you go in and do some extra custom styling. If you want something super unique and custom-made, Bootstrap might not be the best option because you’ll have to override a lot of its styles, which can be annoying. Also, using Bootstrap for really small projects might feel like overkill since it comes with a lot of features you might not even need.
 
+##The Final Verdict
 
-The essay above used ChatGPT for spelling and grammar corrections/suggestions, and suggestions for a main essay title.
+Still, at the end of the day, Bootstrap is definitely worth it if you want to save time and make your website look good without having to write tons of CSS. It’s a great tool for both beginners and experienced developers who just want to get things done fast. So if you're thinking about using Bootstrap, go for it—chances are, it’ll make your life a whole lot easier.
+The essay above used ChatGPT for spelling and grammar corrections/suggestions, and suggestions for a main essay title. So, is Bootstrap really worth it? Yes—but only if it fits the needs of your project. If you value efficiency, responsiveness, and ease of use, then Bootstrap will make your life a whole lot easier.
+
+used ChatGPT for grammar and suggestions for my main title

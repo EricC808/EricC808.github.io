@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Estimating and Tracking Effort in Software Development: Lessons from Experience"
+title: "AI in Software Engineering Education: A Student’s Perspective on Usage, Impact, and Responsibility"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-09
 published: true
@@ -30,7 +30,7 @@ AI nowadays is used everywhere in education, whether integrated in class or stud
 10. Explaining code: I would occasionally use AI to explain code if it was complex and I didn't understand the functionality, but I could understand most simple or normal things.
 11. Writing code: I used ChatGPT, DeepSeek, and GitHub Copilot all the time to write code as it streamlined the process of doing so and was very useful and convenient. Whether it was for homework or an in-class assignment, I used it.
 12. Documenting code: I never asked ChatGPT to document my code during this class as it was often never required or asked, and if it was, it was simple documentation that I could do.
-13. Quality assurance e.g. “What’s wrong with this code <code here>” or “Fix the ESLint errors in <code here>”: While using AI, it was never perfect 100% of the time. So if I got an error while running or compiling my code, I would ask ChatGPT or DeepSeek to resolve my errors.
+13. Quality assurance: While using AI, it was never perfect 100% of the time. So if I got an error while running or compiling my code, I would ask ChatGPT or DeepSeek to resolve my errors.
 14. Other uses in ICS 314 not listed: I didn't use AI in any different way that wasn't listed above.
 
 ## Impact on Learning and Understanding

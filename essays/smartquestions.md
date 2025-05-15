@@ -4,7 +4,7 @@ type: essay
 title: "The Art of Asking: How Smart Questions Unlock the Power of the Developer Community"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-30
-published: true
+published: false
 labels:
   - Stack Overflow
   - Smart Question

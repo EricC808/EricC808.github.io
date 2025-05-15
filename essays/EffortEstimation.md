@@ -6,9 +6,9 @@ title: "Estimating and Tracking Effort in Software Development: Lessons from Exp
 date: 2025-05-8
 published: true
 labels:
-  - Softare Engineering
-  - Project Managment
-  - Time Managment
+  - Software Engineering
+  - Project Management
+  - Time Management
 ---
 
 ## Making My Effort Estimations

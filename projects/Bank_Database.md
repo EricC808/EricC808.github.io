@@ -9,7 +9,7 @@ labels:
   - Vim
   - C
   - C++
-summary: "My team developed a multiplayer game called Primate Pandemonium, for AP Computer Science A."
+summary: "I developed a Bank Data Base Application in C and C++"
 ---
 
 <div class="text-center p-4">

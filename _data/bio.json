@@ -30,9 +30,44 @@
       "studyType": "B.S.",
       "startDate": "2023-08-26",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": []
     }
-    
   ],
+"work": [
+  {
+    "position": "Office Assistant",
+    "company": "UH Manoa Catalog Office",
+    "website": "https://manoa.hawaii.catalog.acalog.com/",
+    "startDate": "2024",
+    "endDate": "Present",
+    "summary": "Assistant in Program & Course Implementation in the UHM Catalog",
+    "highlights": [
+      "Assists the Catalog Office with creating, modifying, and proofreading courses",
+      "Degree requirements, and 4-year plans on the University of Hawai‘i at Mānoa catalog"
+    ]
+  },
+  {
+    "position": "Customer Support Representative",
+    "company": "Domino's",
+    "startDate": "2023",
+    "endDate": "2024",
+    "summary": "Assisted customers around the store as well as team members in finishing orders.",
+    "highlights": [
+      "Troubleshoot online store website operations over the phone and counter",
+      "Answer phone and record orders efficiently and accurately"
+    ]
+  },
+  {
+    "position": "Customer Support Representative",
+    "company": "Pizza Hut",
+    "startDate": "2022",
+    "endDate": "2023",
+    "summary": "Assisted customers around the store as well as team members in finishing orders.",
+    "highlights": [
+      "Troubleshoot online store website operations over the counter",
+      "Make sure that orders were taken efficiently and the customer was always attended to"
+    ]
+  }
+]
+
 }

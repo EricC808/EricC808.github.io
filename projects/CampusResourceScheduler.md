@@ -13,11 +13,7 @@ summary: "A website where all UH campuses students can borrow resources for use.
 ---
 
 <div class="p-4">
-  <img src="../img/HP.jpg" class="img-fluid rounded mx-auto d-block" alt="Homepage screenshot">
-</div>
-
-<div class="p-4">
-  <img src="../img/AdminHP.jpg" class="img-fluid rounded mx-auto d-block" alt="Admin homepage screenshot">
+  <img src="../img/CRSHP.jpg" class="img-fluid rounded mx-auto d-block" alt="Homepage screenshot">
 </div>
 
 ## Overview
@@ -27,6 +23,15 @@ For this project, it was completed as a group of four for our final project/assi
 ## My Role
 
 For this project, I was in charge of finding the sprites to use and editing them to fit our game requirements. I also worked on the code for the barrels and hearts, specifically focusing on detecting when to update the images for each player’s barrels and hearts. For the barrels, we ensured the game started with every barrel being empty with no bananas. We maintained a count variable that updated whenever it detected if the player of the matching color had bananas and if they punched the barrel to deposit them. If these conditions were met, the count would increase. When the count of bananas was greater than 0, the sprite would change, if it exceeded 10, it would change again, and if it reached 20 or more, it would change to a final sprite until bananas were lost. For the hearts, at the beginning of the game, we ensured all hearts were full, and their images would change if the player was punched by an opponent. The heart had four stages: full, two-thirds, one-third, and empty. It would change sprites each time the fist sprite collided with the monkey sprite.
+
+<div class="p-4">
+  <img src="../img/HP.jpg" class="img-fluid rounded mx-auto d-block" alt="Homepage screenshot">
+</div>
+
+<div class="p-4">
+  <img src="../img/AdminHP.jpg" class="img-fluid rounded mx-auto d-block" alt="Admin homepage screenshot">
+</div>
+
 
 ## Lessons Learned
 

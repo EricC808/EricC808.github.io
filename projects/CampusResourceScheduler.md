@@ -13,11 +13,11 @@ summary: "A website where all UH campuses students can borrow resources for use.
 ---
 
 <div class="text-center p-4">
-  <img width="500px" src="../img/HP.jpeg" class="img-thumbnail" >
+  <img width="500px" src="../img/HP.jpg" class="img-thumbnail" >
 </div>
 
 <div class="text-center p-4">
-  <img width="500px" src="../img/AdminHP.jpeg" class="img-thumbnail" >
+  <img width="500px" src="../img/AdminHP.jpg" class="img-thumbnail" >
 </div>
 
 ## Overview

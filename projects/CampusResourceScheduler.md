@@ -12,12 +12,12 @@ labels:
 summary: "A website where all UH campuses students can borrow resources for use."
 ---
 
-<div class="text-center p-4">
-  <img width="500px" src="../img/HP.jpg" class="img-thumbnail" >
+<div class="p-4">
+  <img src="../img/HP.jpg" class="img-fluid rounded mx-auto d-block" alt="Homepage screenshot">
 </div>
 
-<div class="text-center p-4">
-  <img width="500px" src="../img/AdminHP.jpg" class="img-thumbnail" >
+<div class="p-4">
+  <img src="../img/AdminHP.jpg" class="img-fluid rounded mx-auto d-block" alt="Admin homepage screenshot">
 </div>
 
 ## Overview

@@ -33,41 +33,54 @@
       "courses": []
     }
   ],
-"work": [
-  {
-    "position": "Office Assistant",
-    "company": "UH Manoa Catalog Office",
-    "website": "https://manoa.hawaii.catalog.acalog.com/",
-    "startDate": "2024",
-    "endDate": "Present",
-    "summary": "Assistant in Program & Course Implementation in the UHM Catalog",
-    "highlights": [
-      "Assists the Catalog Office with creating, modifying, and proofreading courses",
-      "Degree requirements, and 4-year plans on the University of Hawai‘i at Mānoa catalog"
-    ]
-  },
-  {
-    "position": "Customer Support Representative",
-    "company": "Domino's",
-    "startDate": "2023",
-    "endDate": "2024",
-    "summary": "Assisted customers around the store as well as team members in finishing orders.",
-    "highlights": [
-      "Troubleshoot online store website operations over the phone and counter",
-      "Answer phone and record orders efficiently and accurately"
-    ]
-  },
-  {
-    "position": "Customer Support Representative",
-    "company": "Pizza Hut",
-    "startDate": "2022",
-    "endDate": "2023",
-    "summary": "Assisted customers around the store as well as team members in finishing orders.",
-    "highlights": [
-      "Troubleshoot online store website operations over the counter",
-      "Make sure that orders were taken efficiently and the customer was always attended to"
-    ]
-  }
-]
-
+  "work": [
+    {
+      "position": "Learning Assistant",
+      "company": "University of Hawaii",
+      "startDate": "2021-08",
+      "endDate": "Present",
+      "summary": "Assist students with their coursework",
+      "highlights": [
+        "Provide students assistance with material covered during class",
+        "Help the students efficiently learn the material so they will be proficient",
+        "Create a growth mindset environment where the students can thrive and push to greater heights"
+      ]
+    },
+    {
+      "position": "Customer Service Representative",
+      "company": "Pipedreams Surf Co.",
+      "startDate": "2023-07",
+      "endDate": "2023-12",
+      "summary": "Assist customers and provide hospitality",
+      "highlights": [
+        "Provide customers with hospitality",
+        "Constructive criticism and strive towards improving my skills",
+        "Maintain a clean and organized work environment"
+      ]
+    },
+    {
+      "position": "Reservations Manager",
+      "company": "U-Haul Company of San Diego",
+      "startDate": "2023-06",
+      "endDate": "2023-08",
+      "summary": "Handled shipping and contracts for customer rentals",
+      "highlights": [
+        "Preparation/handling of customer goods",
+        "Shipping and receiving of customer goods, both intra-state and inter-state",
+        "Provide customers with assistance about their contract for rental equipment"
+      ]
+    },
+    {
+      "position": "Reservations Manager",
+      "company": "U-Haul Company of San Diego",
+      "startDate": "2022-06",
+      "endDate": "2022-08",
+      "summary": "Handled shipping and contracts for customer rentals",
+      "highlights": [
+        "Preparation/handling of customer goods",
+        "Shipping and receiving of customer goods, both intra-state and inter-state",
+        "Provide customers with assistance about their contract for rental equipment"
+      ]
+    }
+  ]
 }

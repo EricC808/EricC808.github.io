@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/crslogo.png
 title: "Campus Resource Scheduler"
-date: 2023
+date: 2025
 published: true
 labels:
   - Website

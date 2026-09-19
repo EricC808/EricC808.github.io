@@ -4,12 +4,17 @@ type: project
 image: img/Bank3.png
 title: "Bank Database Application"
 date: 2024
+featured_order: 5
 published: true
 labels:
-  - Vim
   - C
   - C++
-summary: "I developed a Bank Data Base Application in C and C++"
+  - Data Structures
+highlights:
+  - "Linked-list database application written first in C, then converted to C++."
+  - "Supports adding, finding, printing, deleting, loading, and saving records."
+  - "Practiced file I/O, memory management, classes, and debugging."
+summary: "A linked-list bank database application developed in C and later converted to C++."
 ---
 
 <div class="text-center p-4">

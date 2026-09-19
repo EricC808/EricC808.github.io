@@ -12,7 +12,6 @@ published: true
 labels:
   - Game
   - Scratch
-code_url: "https://github.com/EricC808/Scratch-space-invaders-project"
 highlights:
   - "Star Wars-themed take on Space Invaders."
   - "Built independently in Scratch."

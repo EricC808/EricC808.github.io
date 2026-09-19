@@ -1,22 +1,47 @@
-<div class="card mb-3">
+<div class="card mb-3 project-card">
   <div class="row g-0">
-    <div class="col-sm-6 col-md-4">
-      <img src="{{ site.baseurl }}/{{ include.page.image }}" height="225px" class="rounded-start">
+    <div class="col-sm-6 col-md-4 project-media">
+      {% if include.page.animation_url %}
+        <img src="{{ include.page.animation_url }}" class="rounded-start project-preview" alt="{{ include.page.title }} animated preview">
+      {% elsif include.page.animation_images %}
+        <div class="project-slideshow rounded-start">
+          {% for frame in include.page.animation_images %}
+            <img src="{{ site.baseurl }}/{{ frame }}" class="project-slide project-slide-{{ forloop.index }}" alt="{{ include.page.title }} preview {{ forloop.index }}">
+          {% endfor %}
+        </div>
+      {% else %}
+        <img src="{{ site.baseurl }}/{{ include.page.image }}" class="rounded-start project-preview" alt="{{ include.page.title }} preview">
+      {% endif %}
     </div>
     <div class="col-sm-6 col-md-8">
       <div class="card-body">
         <h5 class="card-title">{{ include.page.title }} <small class="text-muted float-end">{{ include.page.date }}</small></h5>
-        <p class="card-text">{{ include.page.summary }}</p>
-        <p>
+
+        {% if include.page.highlights %}
+          <ul class="project-highlights mb-3">
+            {% for highlight in include.page.highlights %}
+              <li>{{ highlight }}</li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p class="card-text">{{ include.page.summary }}</p>
+        {% endif %}
+
+        <p class="mb-3">
           {% for label in include.page.labels %}
-          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
+            <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
           {% endfor %}
         </p>
-        {% if page.projecturl %}
-        <a href="{{ page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
-        {% else %}
-        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
-        {% endif %}
+
+        <div class="d-flex flex-wrap gap-2">
+          <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
+          {% if include.page.code_url %}
+            <a href="{{ include.page.code_url }}" class="btn btn-dark" target="_blank" rel="noopener">{{ include.page.code_label | default: "Code" }}</a>
+          {% endif %}
+          {% if include.page.project_url %}
+            <a href="{{ include.page.project_url }}" class="btn btn-outline-secondary" target="_blank" rel="noopener">{{ include.page.project_label | default: "Project Site" }}</a>
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>

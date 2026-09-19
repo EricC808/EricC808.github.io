@@ -2,13 +2,22 @@
 layout: project
 type: project
 image: img/titleScreen.png
+animation_images:
+  - img/titleScreen.png
+  - img/Primate_GamePlay.png
 title: "Primate Pandemonium"
 date: 2023
+featured_order: 2
 published: true
 labels:
   - Game
   - Java
-summary: "My team developed a multiplayer game called Primate Pandemonium, for AP Computer Science A."
+code_url: "https://github.com/EricC808/Primate-Pandemonium"
+highlights:
+  - "Local multiplayer game for up to four players."
+  - "Built in Java with sprite, health, barrel, and collision systems."
+  - "Created as a four-person AP Computer Science A project."
+summary: "A local multiplayer Java game where players collect, defend, and steal bananas."
 ---
 
 <div class="text-center p-4">
@@ -21,4 +30,4 @@ For this project, I was in charge of finding the sprites to use and editing them
 
 From this project, I learned how time-consuming it is to develop a game from scratch, not only in terms of coding but also in designing the visual aspects with sprites and images that fit the theme. We didn't have the time to create our own sprites, but even finding them online and editing their colors and appearance to match our theme was very time-consuming. This was also my first major group project where we created a game from scratch, which taught me new time management skills. As the deadline approached, we had to work outside of class to complete the project. Additionally, this experience built my skills in various areas, such as using Visual Studio Code, since I was relatively new to it. I also learned about collaboration and integration, as different people worked on different parts, and we had to ensure everything came together and was compatible in the end.
 
-Here is the link to the Code: [Primate-Pandemonium]((https://github.com/EricC808/Primate-Pandemonium.git))
+Here is the link to the Code: [Primate-Pandemonium](https://github.com/EricC808/Primate-Pandemonium)

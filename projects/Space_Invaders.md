@@ -2,13 +2,22 @@
 layout: project
 type: project
 image: img/Space_Invader(Star_Wars).png
-title: "Space Invaders(Star Wars)"
+animation_images:
+  - img/Space_Invader(Star_Wars).png
+  - img/SI(SW)Gameplay.png
+title: "Space Invaders (Star Wars)"
 date: 2021
+featured_order: 3
 published: true
 labels:
   - Game
   - Scratch
-summary: "I created a simple version of Space Invaders Star Wars Themed In Scratch, for AP Computer Science Principles"
+code_url: "https://github.com/EricC808/Scratch-space-invaders-project"
+highlights:
+  - "Star Wars-themed take on Space Invaders."
+  - "Built independently in Scratch."
+  - "Includes screen transitions, collision detection, lives, and enemy logic."
+summary: "A Star Wars-themed Space Invaders game built independently in Scratch."
 ---
 
 <div class="text-center p-4">

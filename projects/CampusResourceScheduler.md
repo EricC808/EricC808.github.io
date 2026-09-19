@@ -4,12 +4,19 @@ type: project
 image: img/crslogo.png
 title: "Campus Resource Scheduler"
 date: 2025
+featured_order: 4
 published: true
 labels:
   - Website
   - TypeScript
   - Bootstrap
-summary: "A website where all UH campus students can borrow resources for use."
+code_url: "https://github.com/campus-resource-scheduler-project/campus-resource-scheduler-project"
+project_url: "https://campus-resource-scheduler-project.vercel.app/"
+highlights:
+  - "UH resource-booking web application built with a five-person team."
+  - "Worked on separate user and admin homepages with role-based rendering."
+  - "Built with TypeScript and Bootstrap."
+summary: "A website where UH students and faculty can find and reserve campus resources."
 ---
 
 <div class="p-4">
@@ -40,6 +47,6 @@ This was my first time modifying an application to show different homepages upon
 
 This experience taught me a lot about role-based rendering and strengthened my problem-solving skills. It also taught me important teamwork skills. I had to write code while keeping in mind other collaborators working at the same time. This was also a first for me, as I had previously only worked in the same file or space as everyone else. I gained vital experience and skills in both coding and teamwork through this project, and I am grateful for the experience—and for my teammates.
 
-Here is the link to the GitHub: [GitHub](https://github.com/campus-resource-scheduler-project)
+Here is the link to the GitHub: [GitHub](https://github.com/campus-resource-scheduler-project/campus-resource-scheduler-project)
 
 Here is the link to the Website: [Website](https://campus-resource-scheduler-project.vercel.app/)

@@ -1,21 +1,21 @@
 {
   "basics": {
     "name": "Eric Chae",
-    "label": "Student",
+    "label": "Computer Science Student | Game & Software Developer",
     "picture": "https://github.com/EricC808.png",
     "email": "ericchae@hawaii.edu",
     "phone": "808-954-9595",
     "website": "https://EricC808.github.io",
-    "summary": "I am studying for a B.S. in Computer Science on the creative Computational Media Track in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2027.",
+    "summary": "Computer Science student at the University of Hawaii at Manoa studying on the Computational Creative Media track. I enjoy game development, software development, and building interactive experiences. I expect to graduate in Spring 2027.",
     "profiles": [
-      { "network": "github", "username": "EricC808", "url": "http://github.com/EricC808" },
-      { "network": "linkedin", "username": "ericchae", "url": "http://linkedin.com/in/eric-chae-13017b23b" }
+      { "network": "github", "username": "EricC808", "url": "https://github.com/EricC808" },
+      { "network": "linkedin", "username": "ericchae", "url": "https://linkedin.com/in/eric-chae-13017b23b" }
     ]
   },
   "interests": [
-    { "name": "Ice Hockey" },
     { "name": "Game Development" },
-    { "name": "Software Development" }
+    { "name": "Software Development" },
+    { "name": "Ice Hockey" }
   ],
   "skills": [
     {
@@ -26,8 +26,8 @@
   "education": [
     {
       "institution": "University of Hawaii at Manoa, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2027)",
-      "studyType": "B.S.",
+      "area": "Computer Science - Computational Creative Media Track (expected Spring 2027)",
+      "studyType": "B.A.",
       "startDate": "2023-08-26",
       "endDate": "Present",
       "courses": []

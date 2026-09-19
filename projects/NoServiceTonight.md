@@ -11,8 +11,8 @@ labels:
   - Game
   - Unity
   - 2D Platformer
-code_url: "https://github.com/t-brangu/NoServiceTonightWebsite"
-code_label: "Website Code"
+code_url: "https://github.com/EricC808/NoServiceTonight"
+code_label: "Code"
 project_url: "https://t-brangu.github.io/NoServiceTonightWebsite/"
 project_label: "Game Website"
 highlights:
@@ -42,4 +42,4 @@ Working on this project gave me more experience with collaborative game developm
   <img src="https://t-brangu.github.io/NoServiceTonightWebsite/assets/player_walk.gif" class="img-fluid rounded" alt="No Service Tonight animated player walk cycle">
 </div>
 
-[Game Website](https://t-brangu.github.io/NoServiceTonightWebsite/) | [Website Code](https://github.com/t-brangu/NoServiceTonightWebsite)
+[Game Website](https://t-brangu.github.io/NoServiceTonightWebsite/) | [Code](https://github.com/EricC808/NoServiceTonight)

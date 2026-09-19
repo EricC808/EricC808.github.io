@@ -1,58 +1,168 @@
 /* Default theme. Simple, yet elegant. */
 
-/* Use Open Sans as the default sans serif font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700|Source+Code+Pro:300,400,500,700");
 
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
+  --bs-link-color: var(--bs-dark);
   --tf-pill-bg: var(--bs-gray);
   --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  --tf-icon-hover: var(--bs-gray-700);
+  --tf-page-bg-color: #ffffff;
+  --tf-footer-bg-color: #f4f5f7;
+  --tf-projects-bg-color: #f6f7f9;
+  --portfolio-border: #e7e9ed;
+  --portfolio-muted: #6c757d;
 }
 
-/* Format social media icons */
-.tf-social {
-  display: inline-block;
-  fill: var(--tf-icon-fill);
-  height: 1.5em;
-  vertical-align: -.1em;
-  width: 1.5em;
-  transition: 0.2s;
+html {
+  scroll-behavior: smooth;
 }
 
-.tf-social:hover {
-  fill: var(--tf-icon-hover);
+body {
+  background: var(--tf-page-bg-color);
 }
 
 a {
   text-decoration: none;
 }
 
+.portfolio-nav {
+  background: rgba(255, 255, 255, .92);
+  border-bottom: 1px solid rgba(0, 0, 0, .06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.portfolio-nav .nav-link {
+  color: #495057;
+  font-weight: 500;
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.portfolio-nav .nav-link:hover {
+  color: #111;
+}
+
+.portfolio-hero {
+  padding: 5rem 0;
+  background:
+    radial-gradient(circle at 15% 15%, rgba(13, 110, 253, .07), transparent 26rem),
+    linear-gradient(180deg, #fff 0%, #fafafa 100%);
+}
+
+.portfolio-avatar {
+  width: min(290px, 75vw);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid #fff;
+  box-shadow: 0 1.25rem 3rem rgba(0, 0, 0, .10);
+}
+
+.hero-kicker,
+.section-kicker {
+  letter-spacing: .16em;
+  font-size: .78rem;
+  font-weight: 700;
+  color: var(--portfolio-muted);
+}
+
+.hero-role {
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: #495057;
+}
+
+.hero-summary {
+  max-width: 760px;
+  font-size: 1.08rem;
+  line-height: 1.75;
+  color: #495057;
+}
+
+.hero-interests {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem;
+}
+
+.hero-interests-label {
+  margin-right: .25rem;
+  font-size: .9rem;
+  font-weight: 700;
+  color: #495057;
+}
+
+.hero-interest,
+.portfolio-badge {
+  background: #eef0f3;
+  color: #495057;
+  border: 1px solid #e3e5e8;
+  font-weight: 600;
+  padding: .45rem .7rem;
+}
+
+.portfolio-section {
+  padding: 4.5rem 0;
+}
+
+.projects-section {
+  background: var(--tf-projects-bg-color);
+}
+
+.essays-section {
+  background: #fff;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin-bottom: 2rem;
+}
+
+.section-subtitle {
+  color: var(--portfolio-muted);
+  font-size: 1.05rem;
+  margin-bottom: 0;
+}
+
+.section-link,
+.essay-read-link {
+  color: #212529;
+  font-weight: 600;
+}
+
+.section-link:hover,
+.essay-read-link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
 .project-card {
   overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 .45rem 1.4rem rgba(0, 0, 0, .07);
   transition: transform .2s ease, box-shadow .2s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 .6rem 1.4rem rgba(0, 0, 0, .08);
+  transform: translateY(-4px);
+  box-shadow: 0 .8rem 2rem rgba(0, 0, 0, .11);
 }
 
 .project-media {
-  min-height: 225px;
+  min-height: 250px;
   overflow: hidden;
-  background: var(--bs-dark);
+  background: #151515;
 }
 
 .project-preview,
 .project-slideshow {
   width: 100%;
-  height: 225px;
+  height: 100%;
+  min-height: 250px;
   object-fit: cover;
 }
 
@@ -64,7 +174,8 @@ a {
   position: absolute;
   inset: 0;
   width: 100%;
-  height: 225px;
+  height: 100%;
+  min-height: 250px;
   object-fit: cover;
   opacity: 0;
   animation: projectCrossfade 6s infinite;
@@ -84,16 +195,64 @@ a {
   100% { opacity: 1; }
 }
 
+.project-year,
+.essay-date {
+  color: var(--portfolio-muted);
+  font-size: .9rem;
+  white-space: nowrap;
+}
+
 .project-highlights {
-  padding-left: 1.2rem;
+  padding-left: 1.15rem;
+  color: #495057;
+  line-height: 1.65;
 }
 
 .project-highlights li {
-  margin-bottom: .2rem;
+  margin-bottom: .25rem;
+}
+
+.essay-card {
+  border: 1px solid var(--portfolio-border);
+  border-radius: .9rem;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.essay-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 .65rem 1.5rem rgba(0, 0, 0, .07);
+}
+
+.essay-preview {
+  color: #5f676f;
+  line-height: 1.6;
+}
+
+.tf-social {
+  display: inline-block;
+  fill: var(--tf-icon-fill);
+  height: 1.5em;
+  vertical-align: -.1em;
+  width: 1.5em;
+  transition: 0.2s;
+}
+
+.tf-social:hover {
+  fill: var(--tf-icon-hover);
+}
+
+.card-footer {
+  background-color: var(--bs-white);
+  border-top: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .project-card {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .project-card,
+  .essay-card {
     transition: none;
   }
 
@@ -106,18 +265,41 @@ a {
   }
 }
 
-@media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
+@media (max-width: 767.98px) {
+  .portfolio-hero {
+    padding: 3.5rem 0;
   }
 
-  .navbar-brand-mobile {
-    display: inline;
+  .portfolio-hero .display-3 {
+    font-size: 2.5rem;
+  }
+
+  .portfolio-section {
+    padding: 3.5rem 0;
+  }
+
+  .project-media,
+  .project-preview,
+  .project-slideshow,
+  .project-slide {
+    min-height: 220px;
+    height: 220px;
   }
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
-.card-footer {
-  background-color: var(--bs-white);
-  border-top: none;
+@media (max-width: 500px) {
+  .portfolio-nav .container {
+    padding-left: .8rem;
+    padding-right: .8rem;
+  }
+
+  .portfolio-nav .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .portfolio-nav .nav-link {
+    font-size: .9rem;
+    padding-left: .45rem;
+    padding-right: .45rem;
+  }
 }

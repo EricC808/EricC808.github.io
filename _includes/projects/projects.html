@@ -1,12 +1,12 @@
-<div style="background-color: var(--tf-projects-bg-color)" class="bg-gradient py-3" id="projects">
+<section class="portfolio-section projects-section" id="projects">
   <div class="container">
-    <div class="row mb-3">
-      <div class="col-md-6">
-        <h1 class="display-4 text-start">Projects</h1>
-      </div>
+    <div class="section-heading">
+      <p class="section-kicker">FEATURED WORK</p>
+      <h2 class="display-5 fw-bold mb-2">Projects</h2>
+      <p class="section-subtitle">Games and software projects I have designed, built, and contributed to.</p>
     </div>
 
-    <div class="vstack gap-3">
+    <div class="vstack gap-4">
       {% assign project_pages = site.pages | where: "type", "project" | sort: "featured_order" %}
       {% for page in project_pages %}
         {% unless page.draft %}
@@ -26,8 +26,9 @@
     {% endfor %}
 
     {% if include.limit and not_draft > include.limit %}
-      <p class="text-center pt-4"><a href="{{ site.baseurl}}/projects/">See all {{ not_draft }} projects</a></p>
+      <div class="text-center pt-4">
+        <a class="section-link" href="{{ site.baseurl}}/projects/">See all {{ not_draft }} projects →</a>
+      </div>
     {% endif %}
-
   </div>
-</div>
+</section>
